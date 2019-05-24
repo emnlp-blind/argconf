@@ -1,0 +1,12 @@
+[
+    {
+        "name": "keepalive",
+        "type": "int",
+        "help": "The keepalive time for the client."
+    }, {
+        "name": "no_warn_keyfile",
+        "action": "store_false",
+        "dest": "warn_keyfile",
+        "help": "Warn if the keyfile is unprotected."
+    }
+]
